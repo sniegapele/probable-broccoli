@@ -6,6 +6,7 @@ public class Naudotojo_service {
     Naudotojo_repository Naudotojas_repo;
     Klausimas_repository Klausimas_repo;
     Atsakymas_repository Atsakymas_repo;
+    Prisijungimo_duomenys_repository Prisijungimo_duomenys_repo;
     Rekomendacija_repository Rekomendacija_repo;
     Išsiregistravimas_repository Išsiregistravimas_repo;
     Blokavimas_repository Blokavimas_repo;
@@ -29,10 +30,6 @@ public class Naudotojo_service {
 
     void redaguoti_naudotojo_duomenis(Integer Naudotojo_id, String Vardas, String Pavardė) {
         // update Naudotojas
-    }
-
-    void pakeisti_rolę(Integer Naudotojo_id, Integer Rolės_id) {
-        // update Naudotojas - rolė
     }
 
     void atnaujinti_atsakymus_į_klausimus(Integer Naudotojo_id) {

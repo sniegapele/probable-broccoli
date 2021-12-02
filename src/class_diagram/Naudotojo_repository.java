@@ -26,4 +26,8 @@ public class Naudotojo_repository {
     List<Naudotojas> gauti_kandidatų_sąrašą() {
         return null;
     }
+
+    void pridėti_naudotoją(String Vardas, String Pavadė, String el_paštas){
+
+    }
 }

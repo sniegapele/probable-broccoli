@@ -5,15 +5,15 @@ public class Rekomendacija_repository {
         return 0;
     }
 
-    void patvirtinti_rekomendaciją(Integer nario_id, Integer kandidato_id){
+    void patvirtinti_rekomendaciją(Integer nario_id, Integer kandidato_id) {
         // updatina statusą
     }
 
-    void pridėti_rekomendaciją(Integer nario_id,Integer kandidato_id){
-        // insertina naują eilutę
+    void pridėti_rekomendaciją(Integer nario_id, Integer tipas, Integer kandidato_id) {
+        // insertina naują eilutę, tipas atskiria prašymus nuo patvirtinimų
     }
 
-    void pridėti_naują_pakvietimą(Integer nario_id, String el_paštas){
+    void pridėti_naują_pakvietimą(Integer nario_id, String el_paštas) {
         // insert į pakvietimas
     }
 }
