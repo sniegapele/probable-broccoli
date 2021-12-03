@@ -1,5 +1,7 @@
 package class_diagram;
 
+import java.util.List;
+
 public class Vasarnamis_repository {
     void pakeisi_vietovę(Integer vasarnamio_id, String vietovė) {
     }
@@ -7,9 +9,20 @@ public class Vasarnamis_repository {
     void keisti_kainą(Integer vasarnamio_id, Integer kaina) {
     }
 
+    void keisti_vietų_skaičių(Integer vasarnamio_id, Integer kiekis) {
+    }
+
     void ištrinti_vasanamį(Integer vasarnamio_id) {
     }
 
     void paslėpti_vasarnamį(Integer vasarnamio_id) {
+    }
+
+    List<Vasarnamis> peržiūrėti_visų_vasarnamių_informaciją() {
+        return null;
+    }
+
+    Vasarnamis peržiūrėti_vasarnamio_informaciją(Integer vasaranamio_id) {
+        return null;
     }
 }

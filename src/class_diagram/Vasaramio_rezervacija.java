@@ -3,7 +3,7 @@ package class_diagram;
 import java.sql.Timestamp;
 import java.util.Date;
 
-public class Vasaramo_rezervacija {
+public class Vasaramio_rezervacija {
     Integer Rezervacijos_id;
     Integer Naudotojo_id;
     Integer Vasarnamio_id;

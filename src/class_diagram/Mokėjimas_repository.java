@@ -7,6 +7,12 @@ public class Mokėjimas_repository {
         return null;
     }
 
-//    void pridėti_naują_mokėjimą()
+    void pridėti_naują_mokėjimą_už_vasarnamį(Integer Naudotojo_id, Integer Sumokėti_taškai,
+                                             Integer Rezervuoto_vasarnamio_id) {
+    }
+
+    void pridėti_naują_mokėjimą_už_paslaugą(Integer Naudotojo_id, Integer Sumokėti_taškai,
+                                             Integer Rezervuotos_paslaugos_id) {
+    }
 
 }

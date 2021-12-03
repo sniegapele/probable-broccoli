@@ -1,5 +1,7 @@
 package class_diagram;
 
+import java.util.List;
+
 public class Papildoma_paslauga_repository {
     void pridėti_paslaugą(String aprašas, Integer kaina) {
     }
@@ -14,5 +16,9 @@ public class Papildoma_paslauga_repository {
     }
 
     void paslėpti_papildomą_paslaugą(Integer paslaugos_id) {
+    }
+
+    List<Papildoma_paslauga> gauti_visas_papildomas_pasaugas() {
+        return null;
     }
 }
