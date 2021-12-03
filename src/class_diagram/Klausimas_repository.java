@@ -11,7 +11,10 @@ public class Klausimas_repository {
         return null;
     }
 
-    void pridėti_klausimą(String klausimas, Boolean ar_rodomas){
+    void pridėti_klausimą(String klausimas, Boolean ar_rodomas) {
 
+    }
+
+    void paslėpti(Integer klausimo_id) {
     }
 }

@@ -27,7 +27,10 @@ public class Naudotojo_repository {
         return null;
     }
 
-    void pridėti_naudotoją(String Vardas, String Pavadė, String el_paštas){
+    void pridėti_naudotoją(String Vardas, String Pavadė, String el_paštas, Integer rolės_id) {
 
+    }
+
+    void redaguoti_taškus(Integer naudoto_id, Integer taškų_kiekis) {
     }
 }

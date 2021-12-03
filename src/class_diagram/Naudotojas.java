@@ -7,4 +7,6 @@ public class Naudotojas {
     String Vardas;
     String Pavardė;
     String El_paštas;
+
+    Integer Taškai;
 }
