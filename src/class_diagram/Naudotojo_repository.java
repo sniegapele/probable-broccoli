@@ -33,4 +33,8 @@ public class Naudotojo_repository {
 
     void redaguoti_taškus(Integer naudoto_id, Integer taškų_kiekis) {
     }
+
+    Integer gauti_naudotojo_taškus() {
+        return 0;
+    }
 }

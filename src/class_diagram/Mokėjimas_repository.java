@@ -7,4 +7,6 @@ public class Mokėjimas_repository {
         return null;
     }
 
+//    void pridėti_naują_mokėjimą()
+
 }
