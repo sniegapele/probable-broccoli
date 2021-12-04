@@ -1,5 +1,9 @@
 package class_diagram;
 
+import java.io.File;
+import java.util.Date;
+import java.util.List;
+
 public class Administravimas_service {
     Sistemos_parametrai_repository Sistemos_parametrai_repo;
     Rezervacijos_grupė_repository Rezervacijos_grupė_repo;
@@ -18,91 +22,100 @@ public class Administravimas_service {
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
 
-    // TODO kaip su argumentais?
-    void nustatyti_vasarnamių_rezervacijos_pradžią() {
+
+    void nustatyti_vasarnamių_rezervacijos_pradžią(Date data) {
     }
 
-    void nustatyti_vasarnamių_rezervacijos_pabaigą() {
+    void nustatyti_vasarnamių_rezervacijos_pabaigą(Date data) {
     }
 
-    void nustatyti_rezervacijos_grupių_skaičių() {
+    void nustatyti_rezervacijos_grupių_skaičių(Integer sk) {
     }
 
-    void nustatyti_maksimalią_atostogų_trukmę() {
+    void nustatyti_maksimalią_atostogų_trukmę(Integer sk) {
     }
 
     void išskirstyti_narius_į_rezervacijos_grupes() {
+        // + notif
     }
 
-    void nustatyti_grąžinamą_dalį_atšaukus_rezeraciją() {
+    void nustatyti_grąžinamą_dalį_atšaukus_rezeraciją(List<Integer> param) {
         // čia ale paduosim keturis atributus lentoj parametrų,
         // kurie nusakys,kiek laiko liko ir juose laikysim procentus
     }
 
-    void pašalinti_vasarnamį() {
+    void pašalinti_vasarnamį(Integer vasarnamio_id) {
     }
 
-    void redaguoti_vasarnamį() {
+    void redaguoti_vasarnamį(Vasarnamis v, List<Patogumas> p) {
         // įskaitant ir patogumus
     }
 
-    void pridėti_vasarnamį() {
+    void pridėti_vasarnamį(Vasarnamis v, List<Patogumas> p) {
         //įskaitant ir patogumus
     }
 
-    void pridėti_papildomą_paslaugą() {
+    void pridėti_papildomą_paslaugą(Papildoma_paslauga p) {
     }
 
-    void redaguoti_papildomą_paslaugą() {
+    void redaguoti_papildomą_paslaugą(Papildoma_paslauga p) {
     }
 
-    void pašalinti_papildomą_paslaugą() {
+    void pašalinti_papildomą_paslaugą(Integer id) {
     }
 
-    void pridėti_klausimą_į_anketą() {
+    void pridėti_klausimą_į_anketą(String klausimas) {
     }
 
-    void paslėpti_klausimą() {
+    void paslėpti_klausimą(Integer id) {
     }
 
-    void įkelti_narius_iš_CVS() {
+    void įkelti_narius_iš_CSV(File failas) {
         // tegul suka cikliuką ir prideda po vieną :)
     }
 
-    void keisti_rekomendacijų_kiekį() {
+    void keisti_rekomendacijų_kiekį(Integer kiekis) {
         //įskaitant ir rolių update
     }
 
-    void blokuoti_naudotoją() {
+    void blokuoti_naudotoją(Integer naudotojo_id) {
     }
 
-    void atblokuoti_naudotoją() {
+    void atblokuoti_naudotoją(Integer naudotojo_id) {
     }
 
-    void atšaukti_rezervacijas() {
+    void atšaukti_rezervaciją(Integer rezervacijos_id) {
+        // negrąžinti pinigų
     }
 
-    void keisti_max_narių_skaičių() {
+    void keisti_max_narių_skaičių(Integer kiekis) {
     }
 
-    void keisti_nario_mokesčio_dydį() {
+    void keisti_nario_mokesčio_dydį(Integer mokestis) {
+        // integer , nes taškai sveiki
     }
 
-    void skirti_taškų() {
+    void skirti_taškų(Integer naudotojo_id, Integer taškų_kiekis, String priežastis) {
     }
 
-    void peržiūrėti_nario_mokesčio_mokėjimo_istoriją() {
+    List<Nario_mokestis> peržiūrėti_nario_mokesčio_mokėjimo_istoriją() {
+        return null;
     }
 
-    void peržiūrėti_taškų_mokėjimo_istoriją() {
+    List<Mokėjimas> peržiūrėti_taškų_mokėjimo_istoriją() {
+        return null;
     }
 
-    void peržiūrėti_blokavimus() {
+    List<Blokavimas> peržiūrėti_blokavimus() {
+        return null;
     }
 
-    void peržiūrėti_nuopelnus() {
+    List<Nuopelnas> peržiūrėti_nuopelnus() {
+        return null;
     }
 
-    void pakeisti_taško_kainą() {
+    void pakeisti_taško_kainą(Float nauja_kaina) {
     }
+
+
 }

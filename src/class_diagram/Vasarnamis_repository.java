@@ -25,4 +25,6 @@ public class Vasarnamis_repository {
     Vasarnamis peržiūrėti_vasarnamio_informaciją(Integer vasaranamio_id) {
         return null;
     }
+
+
 }

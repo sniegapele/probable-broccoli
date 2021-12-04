@@ -15,9 +15,19 @@ public class Naudotojo_service {
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
 
-    void gauti_naudotojo_duomenis(Integer naudotojo_id) {
+    public class Naudotojo_duomenys {
+        Naudotojas naudotojas;
+        List<Klausimas_atsakymas> atsakymai;
+        boolean blokuotas;
+    }
+
+    public class Klausimas_atsakymas {
+    }
+
+    Naudotojo_duomenys gauti_naudotojo_duomenis(Integer naudotojo_id) {
         // TODO koks čia return tipas? Idėja,kad returnina viską sujoininus
-        //  iš visų lentų (Naudotojas, klausimas, atsakymas,blokavimas)
+        //  iš visų lentų (Naudotojas, klausimas, atsakymas, blokavimas)
+        return null;
     }
 
     Integer gauti_gautų_rekomendacijų_skaičių() {
@@ -32,32 +42,27 @@ public class Naudotojo_service {
         // update Naudotojas
     }
 
-    void atnaujinti_atsakymus_į_klausimus(Integer Naudotojo_id) {
-        // TODO man atrodo, kad galbūt logiška būtų pasiimt kokį nors klausimų listą,
-        //  tuomet atnaujintų reikšmių listą ir tada šitas metodas updatintų viską po vieną,
-        //  bet no idea kaip tai užrašyt per parametrus
+    void atnaujinti_atsakymus_į_klausimus(Integer Naudotojo_id, Integer klausimo_id, String atsakymas) {
     }
 
-    void gauti_naudotojų_sąrašą() {
-        // TODO return List<Naudotojas>?? bet būtų geriau rodyt daugiau info
-    }
-
-    void rasti_naudotoją(String tekstas) {
-        // paduoda vardą/pavardę
-        // TODO ką returninam? būtų geriau rodyt daugiau, kaip ir kituose profiliuose
-    }
-
-    List<Naudotojas> gauti_kandidatų_sąrašą() {
-        // gal pridedam daugiau infonei tik šitas tipas - no idea, bet tuomet mums reik susiderint su UI
-        // TODO apibrėžiant tipą pažiūrėti su UI, ką returnina kandidatų sąraše
+    List<Naudotojas> gauti_naudotojų_sąrašą() {
         return null;
     }
 
-    void išsiregistruoti() {
+    List<Naudotojas> rasti_naudotoją(String tekstas) {
+        // paduoda vardą/pavardę
+        return null;
+    }
+
+    List<Naudotojas> gauti_kandidatų_sąrašą() {
+        return null;
+    }
+
+    void išsiregistruoti(Integer naudotojo_id) {
         // pateikiamas prasymas
     }
 
-    void atšaukti_išsiregistravimą() {
+    void atšaukti_išsiregistravimą(Integer naudotojo_id) {
 
     }
 }

@@ -7,19 +7,19 @@ public class Rekomendacija_service {
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
 
-    void patvirtinti_rekomendaciją(Integer Kandidato_id) {
+    void patvirtinti_rekomendaciją(Integer nario_id, Integer Kandidato_id) {
         // updatins rekomendaciją
     }
 
-    void suteikti_rekomendaciją(Integer kandidato_id) {
+    void suteikti_rekomendaciją(Integer nario_id, Integer kandidato_id) {
         // cia kai patvirtinam kazka is sistemos
     }
 
-    void pakviesti_narį(String el_paštas) {
+    void pakviesti_narį(Integer nario_id, String el_paštas) {
         // mail + insertas
     }
 
-    void prašyti_rekomendacijos(String email) {
+    void prašyti_rekomendacijos(Integer kandidato_id, String email) {
         // prideda naują eilutę į rekomendacijas su tipu "laukiama"
     }
 }

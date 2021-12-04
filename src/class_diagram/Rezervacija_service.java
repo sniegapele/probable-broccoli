@@ -1,5 +1,8 @@
 package class_diagram;
 
+import java.util.Date;
+import java.util.List;
+
 public class Rezervacija_service {
     Vasarnamis_repository Vasarnamis_repo;
     Vasarnamio_rezervacija_repository Vasarnamio_rezervacija_repo;
@@ -11,35 +14,48 @@ public class Rezervacija_service {
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
 
-    void rezervuoti_vasarnamį() {
+    void rezervuoti_vasarnamį(Integer naudotojo_id, Integer vasarnamio_id, Date pradžia, Date pabaiga, Integer kaina) {
         // tikrina visus conditionus IR SUMOKA
         // insert rezervacija
         // insert mokėjimas
     }
 
-    void peržiūrėti_vasarnamių_informaciją() {
+    List<Vasarnamis> peržiūrėti_vasarnamius() {
+        return null;
     }
 
-    void peržiūrėti_vasarnamio_informaciją() {
+    public class Vasarnamio_info {
     }
 
-    void ieškoti_vasarnamių_pagal_vietą() {
+    Vasarnamio_info peržiūrėti_vasarnamio_informaciją(Integer vasarnamio_id) {
+        return null;
     }
 
-    void ieškoti_vasarnamių_pagal_vietų_skaičių() {
+    List<Vasarnamis> ieškoti_vasarnamių_pagal_vietą(String vieta) {
+        return null;
     }
 
-    void ieškoti_vasarnamių_pagal_patogumus() {
+    List<Vasarnamis> ieškoti_vasarnamių_pagal_vietų_skaičių(Integer vietos) {
+        return null;
     }
 
-    void atšaukti_rezervaciją() {
+    List<Vasarnamis> ieškoti_vasarnamių_pagal_patogumus(List<Patogumas> p) {
+        return null;
+    }
+
+    void atšaukti_rezervaciją(Integer rezervacijos_id) {
         // įskaitant pinigų grąžinimą
     }
 
-    void peržiūrėti_asmenines_rezervacijas() {
+    List<Vasaramio_rezervacija> peržiūrėti_asmenines_rezervacijas(Integer naudotojo_id) {
+        return null;
     }
 
-    void rezervuoti_papildomą_paslaugą(){
+    List<Papildoma_paslauga> peržiūrėti_papildomas_paslaugas() {
+        return null;
+    }
+
+    void rezervuoti_papildomą_paslaugą(Integer naudotojo_id, Integer paslaugos_id) {
         // SUMOKA
         // insert rezervacija
         // insert mokėjimas

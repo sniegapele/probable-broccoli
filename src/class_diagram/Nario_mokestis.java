@@ -7,5 +7,5 @@ public class Nario_mokestis {
     Integer Naudotojo_id;
     Date mokėta_už_metus;
     Integer sumokėta_suma;
-    Timestamp mokėiimo_data_ir_laikas;
+    Timestamp mokėjimo_data_ir_laikas;
 }

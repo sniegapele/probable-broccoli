@@ -10,6 +10,6 @@ public class Vasaramio_rezervacija {
     Date Pradžios_data;
     Date Pabaigos_data;
     Integer Sumokėta_suma;
-    Integer Statusas;
+    Integer Statusas; // atšaukimas
     Timestamp Rezervaijos_laikas;
 }
