@@ -6,5 +6,6 @@ public class Vasarnamis {
     String Vietovė;
     Integer Vietų_skaičius;
     Integer Kaina_savaitei;
+    String Nuotraukos_URL;
     Boolean rodomas;
 }

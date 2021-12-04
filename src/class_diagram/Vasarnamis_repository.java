@@ -12,6 +12,9 @@ public class Vasarnamis_repository {
     void keisti_vietų_skaičių(Integer vasarnamio_id, Integer kiekis) {
     }
 
+    void keisti_nuotrauką(Integer vasarnamio_id, String url) {
+    }
+
     void ištrinti_vasanamį(Integer vasarnamio_id) {
     }
 
