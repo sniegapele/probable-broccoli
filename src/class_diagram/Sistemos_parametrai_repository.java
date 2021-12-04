@@ -6,7 +6,13 @@ public class Sistemos_parametrai_repository {
     void pakeisti_rezervacijos_pradžią(String data) {
     }
 
-    void pakeisti_rezeracijos_pabaigą(String date) {
+    void pakeisti_rezeracijos_pabaigą(String data) {
+    }
+
+    void pakeisti_sezono_pradžią(String data) {
+    }
+
+    void pakeisti_sezono_pabaigą(String data) {
     }
 
     void pakeisti_grupių_skaičių(Integer skaičius) {

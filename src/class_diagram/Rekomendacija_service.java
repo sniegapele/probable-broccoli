@@ -1,8 +1,10 @@
 package class_diagram;
 
 public class Rekomendacija_service {
-    Rekomendacija_repository Rekomendacija_repository;
+    Naudotojo_repository Naudotojas_repo;
+    Rekomendacija_repository Rekomendacija_repo;
     Pakvietimas_repository Pakvietimas_repo;
+    Pranešimas_repository Pranešimas_repo;
 
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;

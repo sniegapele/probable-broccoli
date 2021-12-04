@@ -1,9 +1,12 @@
 package class_diagram;
 
+import java.util.List;
+
 public class Pranešimai_service {
     Pranešimas_repository Pranešimas_repo;
 
-    void peržiūrėti_pranešimus(Integer naudotojo_id) {
+    List<Pranešimas> peržiūrėti_pranešimus(Integer naudotojo_id) {
+        return null;
     }
 
     void sukurti_pranešimą(Integer naudotojo_id, String message) {

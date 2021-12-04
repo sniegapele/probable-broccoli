@@ -7,6 +7,7 @@ public class Finansai_service {
     Nario_mokestis_repository Nario_mokestis_repo;
     Sistemos_parametrai_repository Sistemos_parametrai_repo;
     Mokėjimas_repository Mokėjimas_repo;
+    Pranešimas_repository Pranešims_repo;
 
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;

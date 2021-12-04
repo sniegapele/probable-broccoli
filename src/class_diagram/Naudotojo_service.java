@@ -11,7 +11,6 @@ public class Naudotojo_service {
     Išsiregistravimas_repository Išsiregistravimas_repo;
     Blokavimas_repository Blokavimas_repo;
 
-
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
 
@@ -25,8 +24,6 @@ public class Naudotojo_service {
     }
 
     Naudotojo_duomenys gauti_naudotojo_duomenis(Integer naudotojo_id) {
-        // TODO koks čia return tipas? Idėja,kad returnina viską sujoininus
-        //  iš visų lentų (Naudotojas, klausimas, atsakymas, blokavimas)
         return null;
     }
 

@@ -18,6 +18,7 @@ public class Administravimas_service {
     Nario_mokestis_repository Nario_mokestis_repo;
     Mokėjimas_repository Mokėjimas_repo;
     Blokavimas_repository Blokavimas_repo;
+    Pranešimas_repository Pranešimas_repo;
 
     Tipo_aprašas_repository Tipo_aprašas_repo;
     Reikšmės_aprašas_repository Reikšmės_aprašas_repo;
@@ -27,6 +28,12 @@ public class Administravimas_service {
     }
 
     void nustatyti_vasarnamių_rezervacijos_pabaigą(Date data) {
+    }
+
+    void nustatyti_sezono_pradžią(Date data) {
+    }
+
+    void nustatyti_sezono_pabaigą(Date data) {
     }
 
     void nustatyti_rezervacijos_grupių_skaičių(Integer sk) {
@@ -106,6 +113,10 @@ public class Administravimas_service {
         return null;
     }
 
+    List<Klubo_taškų_pirkimas> peržiūrėti_pirkimo_istoriją() {
+        return null;
+    }
+
     List<Blokavimas> peržiūrėti_blokavimus() {
         return null;
     }
@@ -117,5 +128,8 @@ public class Administravimas_service {
     void pakeisti_taško_kainą(Float nauja_kaina) {
     }
 
+    void patvirtinti_mokėjimą(Integer naudotojo_id, Integer taškų_kiekis, Double sumokėta_suma) {
+
+    }
 
 }
