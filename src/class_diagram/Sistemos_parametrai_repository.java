@@ -1,13 +1,12 @@
 package class_diagram;
 
+import java.util.List;
+
 public class Sistemos_parametrai_repository {
     void pakeisti_rezervacijos_pradžią(String data) {
-
     }
 
-    //TODO ar tikrai reik???
     void pakeisti_rezeracijos_pabaigą(String date) {
-
     }
 
     void pakeisti_grupių_skaičių(Integer skaičius) {
@@ -31,4 +30,7 @@ public class Sistemos_parametrai_repository {
     void pakeisti_taško_kainą(Integer nauja_kaina) {
     }
 
+    List<Sistemos_parametrai> gauti_parametrus() {
+        return null;
+    }
 }

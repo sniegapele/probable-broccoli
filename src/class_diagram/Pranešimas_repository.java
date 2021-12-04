@@ -7,8 +7,10 @@ public class Pranešimas_repository {
         return null;
     }
 
-
     List<Pranešimas> gauti_pranešimus(Integer kiekis) {
         return null;
+    }
+
+    void pridėti_naują_pranešimą(Integer nario_id, String tekstas) {
     }
 }

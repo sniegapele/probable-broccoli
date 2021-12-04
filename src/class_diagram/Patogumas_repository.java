@@ -12,4 +12,8 @@ public class Patogumas_repository {
     List<Patogumas> peržiūrėti_vasarnamio_patogumus(Integer vasarnamio_id) {
         return null;
     }
+
+    List<Patogumas> peržiūrėti_visų_vasarnamių_patogumus() {
+        return null;
+    }
 }

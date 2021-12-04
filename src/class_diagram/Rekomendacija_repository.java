@@ -1,5 +1,7 @@
 package class_diagram;
 
+import java.util.List;
+
 public class Rekomendacija_repository {
     Integer gauti_gautų_rekomendacijų_skaičių(Integer Kandidato_id) {
         return 0;
@@ -15,5 +17,9 @@ public class Rekomendacija_repository {
 
     void pridėti_naują_pakvietimą(Integer nario_id, String el_paštas) {
         // insert į pakvietimas
+    }
+
+    List<Rekomendacija> peržiūrėti_visas_rekomendacijas() {
+        return null;
     }
 }

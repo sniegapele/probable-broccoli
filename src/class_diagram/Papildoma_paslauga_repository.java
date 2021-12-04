@@ -9,7 +9,7 @@ public class Papildoma_paslauga_repository {
     void redaguoti_aprašą(Integer paslaugos_id, String aprašas) {
     }
 
-    void keist_kainą(Integer paslaugos_id, Integer kaina) {
+    void keisti_kainą(Integer paslaugos_id, Integer kaina) {
     }
 
     void ištrinti_papildomą_paslaugą(Integer paslaugos_id) {

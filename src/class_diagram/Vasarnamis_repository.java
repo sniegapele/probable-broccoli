@@ -18,7 +18,7 @@ public class Vasarnamis_repository {
     void paslėpti_vasarnamį(Integer vasarnamio_id) {
     }
 
-    List<Vasarnamis> peržiūrėti_visų_vasarnamių_informaciją() {
+    List<Vasarnamis> peržiūrėti_visus_vasarnamius() {
         return null;
     }
 

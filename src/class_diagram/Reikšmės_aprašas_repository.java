@@ -9,4 +9,8 @@ public class Reikšmės_aprašas_repository {
 
     void pridėti_patogumą(String patogumas) {
     }
+
+    List<Reikšmės_aprašas> peržiūrėti_visas_reikšmes() {
+        return null;
+    }
 }

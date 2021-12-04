@@ -13,4 +13,8 @@ public class Vasarnamio_rezervacija_repository {
 
     void pridėti_rezervaciją(Integer naudotojo_id, Integer vasarnamio_id, Date pradžia, Date pabaiga, Integer kaina) {
     }
+
+    List<Vasaramio_rezervacija> peržiūrėti_visas_rezervacijas() {
+        return null;
+    }
 }
